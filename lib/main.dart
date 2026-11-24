@@ -41,7 +41,8 @@ class HomePage extends StatelessWidget {
         Text("hola"),
         Text("hello"),
         Text("hi"),
-      ],
+        Row(children: [Image.network("https://georgiasafari.com/animal/asian-water-buffalo/")],)
+
       ),
     );
   }
